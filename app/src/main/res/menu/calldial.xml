@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/call2"
+        android:icon="@drawable/ic_icon"
+        android:title="call one "
+        app:showAsAction="ifRoom"  />
+
+    <item android:id="@+id/call3"
+        android:title="call two "
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/airtel"
+                android:title="airtel"/>
+            <item android:id="@+id/mtn"
+                android:title="mtn"/>
+
+        </menu>
+
+    </item>
+
+</menu>
